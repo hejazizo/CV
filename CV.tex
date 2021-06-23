@@ -1,0 +1,384 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{banking} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+% Packages and other configurations
+\include{preamble}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+	
+	\makecvtitle
+	
+% 	%----------------------------------------------------------------------------------------
+% 	%	RESEARCH INTERESTS SECTION
+% 	%---------------------------
+% 	\section{RESEARCH INTERESTS}
+% 	\begin{itemize}
+% 		\item Machine Learning
+% 		\item Natural Language Processing
+% 	\end{itemize}
+
+    \section{HIGHLIGHTS}
+    \begin{itemize}
+        \item Machine Learning Engineer with 5+ years of professional experience in design, development, and deployment of machine learning pipelines.
+        \item Highly experienced in Natural Language Processing with 5+ years of research and industerial experience.
+        \item Lead technical engagement with clients in presenting machine learning models and exploratory data analysis results.
+        \item Team-player with strong communication and leadership skills.
+        \item Founder of \href{https://www.apply-blog.com/applyfund/}{ApplyFund} startup in 2019 that facilitates connecting brilliant students and donors, collecting over 20k CAD in the first year to help students financially.
+        \item Mentor to Machine Learning Developers to help with their career goals with 3+ years of teaching experience in Python, Machine Learning, Deep Learning, Statistics, Linux, Git, etc. and 100+ students.
+    \end{itemize}
+	
+	\section{EDUCATION}
+
+	\begin{itemize}
+		\item \textbf{Master of Science} \hfill May, 2016--Present \\ 
+		\href{https://ualberta.ca/}{\authorimg{Images/alberta.jpg} \emph{University of Alberta}} \hfill \emph{Edmonton-Canada}
+		\begin{itemize}
+			\item Computer Science \hspace{10 pt}  \hspace{10 pt}  \hfill  May, 2017-December 2020
+		\end{itemize}
+		
+% 		\vspace{2em}
+% 		\item \textbf{Bachelor of Science} \hfill 2011--2015 \\
+% 		\href{http://aut.ac.ir/aut/}{\authorimg{Images/aut.png} \emph{Amirkabir University of Technology}} \hfill \emph{Tehran-Iran}
+		
+% 		\begin{itemize}
+% 			\item Electrical and Computer Engineering
+% 		\end{itemize}
+	\end{itemize}
+	
+	% Reduces the vertical space.
+	%----------------------------------------------------------------------------------------
+	%	INTERNSHIP SECTION
+	%----------------------------------------------------------------------------------------
+	\section{WORK EXPERIENCE}
+	\begin{itemize}
+		\item \href{http://altaml.com/}{\authorimg{Images/altaml.jpg} \emph{AltaML}} \hfill May 2018-present
+		
+		Machine Learning Engineer
+		
+		3+ years in development and deployment of machine learning algorithms: 
+		\begin{itemize}
+			\item Natural Language Processing
+			\begin{itemize}
+				\item Chatbots
+				\begin{itemize}
+				    \item A project leading to two chatbot products between AltaML and clients.
+				    \item A very simple showcase of the chatbot is deployed in \href{http://hejazizo.com/}{my personal homepage}.
+				\end{itemize}
+				\item Question answering on insurance text data to identify faults and missing fields in forms filled by customers.
+				\item Text classification
+				\item Entity extraction
+				\item Spelling correction
+				\item Sentiment Analysis
+			\end{itemize}
+			\item Financial transactional data analysis with \href{https://www.atb.com/personal/}{ATB} bank to analyse account usage and recommends ATB products.
+			
+			\begin{itemize}
+			    \item Developed several machine learning models (with over 90\% accuracy) to detect the account usage and suggest users to switch from a Business/Personal/... account to other suitable accounts types.
+			    \item \href{https://www.altaml.com/news/opportunity-calgary-investment-fund-supports-altaml-initiative-to-create-ai-ml-talent-pipeline/}{Lead to partnership with ATB for a \$3.25 million investment over 3 years for 240 interns.}
+			\end{itemize}
+			
+			\item Medical data lung cancer survival analysis using RNA sequence data.
+			\begin{itemize}
+			    \item The most profitable project in AltaML history at its time.
+			\end{itemize}
+			
+			\item Recommendation systems that suggest relevant items to user in filling forms with insurance companies. The project included development of several recommendation engines to help users while filling claim forms.
+			\item Financial donation data analysis to identify and predict big donors with Alberta University Hospital Foundation (UHF).
+			
+			\item Cancer type classification and prediction using RNA sequence data.
+			\item COVID recovery prediction based on users medical tests data.
+			
+		\end{itemize}
+		
+		\item \href{https://ualberta.ca/}{\authorimg{Images/alberta.jpg}} University of Alberta \hfill 2016-2020
+		
+        AI Research Scientist
+        \begin{itemize}
+			\item Paraphrase Generation by Variational Autoencoders and Metropolis--Hastings Sampling
+			\begin{itemize}
+			    \item Developed an unsupervised paraphrasing technique trained on \href{https://nlp.stanford.edu/projects/snli/}{SNLI} and \href{https://www.kaggle.com/c/quora-question-pairs/data}{Quora} dataset, introducing novel phrase-level paraphrasing technique with Variational Autoencoders.
+			\end{itemize}
+            \item Mapping Macroscopic Brain Connectomes via Multidimensional Encoding, Learning, and Optimization using dMRI brain images.
+    		\begin{itemize}
+    		    \item A project between University of Alberta and University of Indiana University
+    			\item Mapping connectomes for the arcuate fasciculus, using extremely high-dimensional sparse tensors.
+    			\item Loading data and visualization in Matlab
+    			\item Encoding, learning, and optimization in C with GPU parallel computing.
+    			\item \textcolor{gray}{Supervisor: \href{http://webdocs.cs.ualberta.ca/~whitem/}{Dr. Martha White}}
+    		\end{itemize}
+    		
+    		\item Diagnosis of Alzheimer's Disease Based on Structural MRI Images using Machine Learning Techniques.
+    		\begin{itemize}
+    
+    			\item Step 1: Preprocessing MRI images using Freesurfer tools.
+    			\item Step 2: Feature extraction.
+    			\item Step 3: Applying machine learning techniques for diagnosis task.
+    			\item \textcolor{gray}{Supervisor: \href{http://webdocs.cs.ualberta.ca/~joerg/}{Dr. Jörg Sander}}
+    			
+    		\end{itemize}
+		\end{itemize}
+	\end{itemize}
+	
+
+	%----------------------------------------------------------------------------------------
+	%	COMPUTER SKILLS SECTION
+	%----------------------------------------------------------------------------------------
+	\section{SKILLS}
+	
+	\begin{cvcolumns}
+		\cvcolumn[0.45]{Programming/Scripting}
+		{
+			\vspace{-2em}
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item Python
+					\begin{itemize}
+						\item Tensorflow
+						\item PyTorch
+						\item Sklearn
+						\item Gensim
+						\item NLTK
+						\item Pandas
+						\item NumPy
+						\item RASA
+					\end{itemize}
+					\item MySQL
+					\item SQLite
+					\item MongoDB
+					\item SPARQL
+					\item C/C++ 
+					\begin{itemize}
+						\item CUDA
+						\begin{itemize}
+							\item cuBLAS
+							\item cuSparse
+						\end{itemize}
+					\end{itemize}
+					\item Django
+					\item HTML5/CSS3/Bootstrap/JavaScript
+				\end{itemize}
+			\end{multicols}
+		}
+		
+		\cvcolumn{Cloud/MLOps}{
+			\vspace{-2em}
+			\begin{multicols}{2}
+				\begin{itemize}
+					\item AWS (EC2, S3, Lambda, SageMaker)
+					\item Azure
+					\item GCP
+					\item Google Big Query
+					\item Docker
+				\end{itemize}
+			\end{multicols}
+		}
+		
+	\end{cvcolumns}
+
+	
+	%----------------------------------------------------------------------------------------
+	%	COURSEs	
+	%----------------------------------------------------------------------------------------
+	\section{Certificates}
+% 	\begin{itemize}
+% 	    \item University of Alberta Courses
+%     	\begin{multicols}{2}
+%     		\begin{itemize}
+%     			\item \authorimg{Images/alberta.jpg} Machine Learning \hfill[Fall 2017]
+%     			\begin{itemize}
+%     				\item
+%      \textcolor{gray}{Instructor: \href{http://webdocs.cs.ualberta.ca/~whitem/}{Dr. Martha White}}
+%     			\end{itemize}
+    			
+%     			\item \authorimg{Images/alberta.jpg} Knowledge Discovery and Data Mining \hfill[Fall 2017]
+%     			\begin{itemize}
+%     				\item \textcolor{gray}{Instructor: \href{http://webdocs.cs.ualberta.ca/~joerg/}{Dr. Jorg Sander}}
+%     			\end{itemize}
+    
+%     			\item \authorimg{Images/alberta.jpg} Information Retrieval \hfill[Winter 2018]
+%     			\begin{itemize}
+%     				\item \textcolor{gray}{Instructor: \href{https://sites.ualberta.ca/~denilson/}{Dr. Denilson Barbosa}}
+%     			\end{itemize}
+    			
+%     			\item \authorimg{Images/alberta.jpg} Deep Reinforcement Learning \hfill[Winter 2019]
+%     			\begin{itemize}
+%     				\item \textcolor{gray}{Instructor: \href{http://incompleteideas.net/}{Prof. Rich}}
+%     			\end{itemize}
+    			
+%     		\end{itemize}
+%     	\end{multicols}
+% 	\end{itemize}
+	
+
+	\begin{multicols}{2}
+		\begin{itemize}
+		    \item \authorimg{Images/tf.png} \href{https://www.udemy.com/course/complete-guide-to-tensorflow-for-deep-learning-with-python/learn/lecture/8073744?start=15#overview}{Complete Guide to TensorFlow for Deep Learning with Python}
+		    
+		    \item \authorimg{Images/tf.png} \href{https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/}{Complete Tensorflow 2 and Keras Deep Learning Bootcamp}
+		    
+		    \item \authorimg{Images/torch.png}
+		    \href{https://janaltaml.udemy.com/course/pytorch-for-deep-learning-with-python-bootcamp/}{PyTorch for Deep Learning with Python Bootcamp}
+		
+		    \item \authorimg{Images/docker.png}
+		    \href{https://www.udemy.com/course/docker-mastery/learn/lecture/6489880?start=15#overview}{Docker Mastery: with Kubernetes +Swarm from a Docker Captain}
+		
+		    \item \authorimg{Images/docker.png}
+		    \href{https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/}{Docker and Kubernetes: The Complete Guide}
+		
+			\item \authorimg{Images/python.png} \href{https://www.udemy.com/course/complete-python-bootcamp/}{Complete Python Bootcamp: Go from zero to hero in Python 3} 
+			
+			\item \authorimg{Images/python.png} \href{https://www.udemy.com/course/python-beyond-the-basics-object-oriented-programming/}{Python Beyond the Basics - Object-Oriented Programming}
+			
+			\item \authorimg{Images/pandas.png} \href{https://www.udemy.com/course/data-analysis-with-pandas-python/}{Data Analysis Course with Pandas : Hands on Pandas, Python}
+			
+			\item \authorimg{Images/pandas.png} \href{https://www.udemy.com/course/data-analysis-with-pandas/}{Data Analysis with Pandas and Python}
+			
+			\item \authorimg{Images/ubuntu.jpg} \href{https://www.udemy.com/course/linux-mastery/}{Linux Mastery: Master the Linux Command Line in 11.5 Hours}
+			
+			\item \authorimg{Images/ubuntu.jpg} \href{https://www.udemy.com/course/linux-administration-bootcamp/}{Linux Administration Bootcamp: Go from Beginner to Advanced}
+			
+			\item \authorimg{Images/mysql.png} \href{https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/}{The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert}
+			
+
+			\item \authorimg{Images/ml.png}  \href{https://www.coursera.org/learn/machine-learning}{Machine Learning}
+			
+			\item \authorimg{Images/dj.png}
+		    \href{https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/learn/lecture/6550402?start=0#overview}{Python and Django Full Stack Web Developer Bootcamp}
+			
+			\item \authorimg{Images/python.png} \href{https://www.coursera.org/specializations/python}{Python for Everybody Specialization}
+			
+			\item  {\large\authorimg{Images/cuda.png}} \href{https://www.udemy.com/introduction-to-parallel-programming-using-gpgpu-and-cuda/learn/v4/overview}{Parallel Programming using GPGPU and CUDA}
+			
+			\item  \authorimg{Images/dscience.jpg}  \href{https://www.coursera.org/learn/data-scientists-tools}{The Data Scientist's Toolbox}
+			
+			\item  \authorimg{Images/html5.PNG} \href{https://www.coursera.org/learn/html}{Introduction to HTML5} 
+			
+			\item  \authorimg{Images/css3.png} \href{https://www.coursera.org/learn/introcss}{Introduction to CSS3} 
+			
+			\item  \authorimg{Images/js.png} \href{https://www.coursera.org/learn/javascript}{Interactivity with JavaScript}  
+			
+			\item  {\large\authorimg{Images/git.png}} \href{https://www.udemy.com/git-complete/learn/v4/overview}{Git Complete}
+			
+		\end{itemize}
+	\end{multicols}
+
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	HONOR SECTION
+	%----------------------------------------------------------------------------------------
+% 	\section{HONORS}
+	
+% 	\begin{itemize}
+% 		\item Ranked 1\textsuperscript{st} in Electrical Engineering, Power Group, among more than 30 students,
+% 		Amirkabir University of Technology, Tehran, Iran.
+		
+% 		\item Ranked 121\textsuperscript{st} in university entrance exam, among more than 300,000
+% 		participant [Summer 2011].
+		
+% 		\item Granted admission from Talented Student Office of Amirkabir University of Technology for graduate study. \\
+% 	\end{itemize}
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	LANGUAGE SKILLS SECTION
+	%----------------------------------------------------------------------------------------
+	%\section{LANGUAGE SKILLS}
+	%
+	%\begin{itemize}
+	%\item Persian \hspace{5 pt} Native
+	%\item English \hspace{6 pt} Fluent   
+	%	\begin{itemize}
+	%		 \item TOEFL Score: 95
+	%		 \begin{itemize}
+	%		 	\item Reading: ~27 \item Listening: 20 \item Speaking: 23 \item Writing: ~~25 
+	%	 	\end{itemize}
+	%	\end{itemize}
+	%\end{itemize} 
+	
+	
+% 	\vspace{-1em}
+% 	%----------------------------------------------------------------------------------------
+% 	%	ACADEMIC PROJECTS SECTION
+% 	%----------------------------------------------------------------------------------------
+% 	\section{RESEARCH PROJECTS}
+% 	\vspace{0.3em}
+% 	\begin{itemize}
+
+		
+% 		\item Model compression with teacher-student method on MNIST dataset using Tensorflow.
+% 		\begin{itemize}
+% 			\item \textcolor{gray}{Supervisor: \href{https://webdocs.cs.ualberta.ca/~nray1/}{Dr. Nilanjan Ray}}
+% 		\end{itemize}
+		
+% 		\item Efficient keyword and phrase retrieval for the boolean and vector space models. This project includes:
+% 		\begin{itemize}
+% 			\item Building an inverted index to enable fast document retrieval.
+% 			\item Boolean and vector space model retrieval.
+% 			\item Zone indexing and scoring.
+% 			\item \textcolor{gray}{Supervisor: \href{https://sites.ualberta.ca/~denilson/}{Dr. Denilson Barbosa}}
+% 		\end{itemize}
+		
+% 	\end{itemize}
+	
+	%----------------------------------------------------------------------------------------
+	%	PUBLICATION SECTION
+	%----------------------------------------------------------------------------------------
+	% \section{PUBLICATION}
+	% Hejazizo, A. , Azad, S. P. , \& Van Hertem, D.. (2015). Interoperability of Protection Systems in High Voltage Direct Current (HVDC) Networks. In \textit{CIGRE Canada Conference - Future Power Systems and Grid Resiliency} (pp. 1-6). October.
+	
+	%\textcolor{gray}{\faCloudDownload}~Click \href{https://cigre.ca/papers/cigre-paper-hejazizo-ualberta-ca-y-641.pdf}{\textcolor{red}{here}} to download.
+	
+
+	%----------------------------------------------------------------------------------------
+	%	TEACHING EXPERIENCE SECTION
+	%----------------------------------------------------------------------------------------
+% % 	\vspace{-2em}
+% 	\section{TEACHING EXPERIENCES}
+% 	\begin{itemize}
+% 		\item Teaching Assistant
+% 		\begin{itemize}
+			
+% 			\item \authorimg{Images/alberta.jpg} CMPUT 272 - Formal Systems and Logic in Computing Science \hfill Winter 2020
+% 			\item \authorimg{Images/alberta.jpg} CMPUT 101 - Introduction to Computing \hfill Winter, Fall 2017 \& Winter 2018, 2019
+% 			\item \authorimg{Images/aut.png} Advanced Programming \hfill Winter 2016
+% 			\item \authorimg{Images/aut.png} C++ Programming \hfill Fall 2015
+% 			\item \authorimg{Images/aut.png} Electrical Machines I \hfill Winter 2014
+% 			\item \authorimg{Images/aut.png} Engineering Mathmathics \hfill Fall 2013
+
+			
+% 		\end{itemize}
+% 	\end{itemize}
+	
+% 	%----------------------------------------------------------------------------------------
+% 	%	References and Proofs
+% 	%----------------------------------------------------------------------------------------
+% 	\vspace{2em}
+% 	\centerline{\underline{\textbf{	\faExclamationCircle \hspace{0.5 pt} References, Further information, and Proofs are available upon Request}}}
+
+\end{document}
